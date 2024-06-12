@@ -57,5 +57,4 @@ Envia suas mudanças da ramificação main local para o repositório remoto orig
 # Clonando Repositório
 
 ## Comando
-
-### git clone <url>
+git clone <url>
