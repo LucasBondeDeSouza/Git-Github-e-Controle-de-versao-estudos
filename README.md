@@ -53,3 +53,9 @@ Conecta seu repositório local a um repositório remoto chamado origin no caminh
 Envia suas mudanças da ramificação main local para o repositório remoto origin e define a ramificação upstream para facilitar futuros push/pull.
 
 **Quando usar:** Quando você deseja enviar as mudanças do seu repositório local para o repositório remoto pela primeira vez ou quando deseja definir a ramificação upstream para a ramificação atual.
+
+# Clonando Repositório
+
+## Comando
+
+### git clone <url>
