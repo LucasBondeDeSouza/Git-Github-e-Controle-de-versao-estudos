@@ -1,3 +1,11 @@
+# Qual é a diferença entre Repositório Local e Repositório Remoto?
+
+### Repositório Local:
+Quando você inicializa um novo repositório com git init ou clona um repositório remoto com git clone, você está trabalhando em um repositório local no seu computador.
+
+### Repositório Remoto:
+Quando você adiciona um repositório remoto com git remote add origin <URL> e faz git push para enviar suas mudanças para o GitHub, você está interagindo com um repositório remoto.
+
 # Introdução a Controle de versão e Git
 
 ## Comandos 
@@ -31,3 +39,17 @@ Mostra as diferenças entre as mudanças feitas no arquivo e a versão dele que 
 Descarta as mudanças feitas no arquivo e restaura a versão do arquivo que está no último commit.
 
 **Quando usar:** Quando você deseja descartar todas as modificações feitas no arquivo e voltar para a versão mais recente dele que está no repositório.
+
+# Github e Repositório Remoto
+
+## Comandos 
+
+### git remote add origin <caminho do projeto>
+Conecta seu repositório local a um repositório remoto chamado origin no caminho especificado.
+
+**Quando usar:** Quando você deseja conectar seu repositório local a um repositório remoto para que possa enviar (push) e buscar (pull) mudanças entre eles.
+
+### git push -u origin main
+Envia suas mudanças da ramificação main local para o repositório remoto origin e define a ramificação upstream para facilitar futuros push/pull.
+
+**Quando usar:** Quando você deseja enviar as mudanças do seu repositório local para o repositório remoto pela primeira vez ou quando deseja definir a ramificação upstream para a ramificação atual.
